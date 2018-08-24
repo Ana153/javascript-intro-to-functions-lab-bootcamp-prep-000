@@ -16,10 +16,10 @@ function logWhisper(word){
 
 function sayHiToGrandma(word){
   if(word.toLowerCase === word){
-    console.log("I can\'t hear you!")
+    return ("I can\'t hear you!")
   } else if (word === "I love you, Grandma."){
-    console.log("I love you, too.")
+    return ("I love you, too.")
   } else {
-    console.log("YES INDEED!")
+    return("YES INDEED!")
   }
 }
