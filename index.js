@@ -23,3 +23,7 @@ function sayHiToGrandma(word){
     return("YES INDEED!")
   }
 }
+
+sayHiToGrandma(bok);
+sayHiToGrandma(BOK);
+sayHiToGrandma("I love you, Grandma.");
